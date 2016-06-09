@@ -271,21 +271,5 @@ public class main {
 		}
 	}
 	
-	public void Oku(byte hangi) {
-		
-			
-		for (int i = 0; i < orjinal.length; i++) {
-			for (int j = 0; j < image.getHeight(); j++) {
-				Color color = new Color(image.getRGB(i,j));
-				int red=color.getRGB();
-				if(hangi==1) {
-					orjinal[i][j]=red;
-				}
-				
-				//System.out.println(orjinal[i][j]);
-			}
-			
-			
-		}
-	}
+	
 }
